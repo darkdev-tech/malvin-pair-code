@@ -28,8 +28,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'nexusxd.bot@gmail.com', // Your Mega A/c Email Here
-            password: 'malvin266' // Your Mega A/c Password Here
+            email: 'iantaracha@gmail.com', // Your Mega A/c Email Here
+            password: 'popkid2004?' // Your Mega A/c Password Here
         }).ready;
         console.log('Mega storage initialized.');
 
@@ -105,7 +105,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'MALVIN-XD~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'POPKID-XTECH~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
