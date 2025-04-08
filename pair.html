@@ -4,23 +4,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="POPKID-XTECH PAIR CODE">
-  <meta property="og:description" content="Pair-code linker for POPKID-XTECH WhatsApp bot.">
+  <meta property="og:title" content=" PAIR CODE">
+  <meta property="og:description" content="Pair-code linker for WhatsApp bot.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://github.com/kingmalvn/JINWOO-BOT">
-  <meta property="og:image" content="https://files.catbox.moe/y65ffs.jpg">
+  <meta property="og:url" content="https://github.com/darkdev-tech/Queen-md">
+  <meta property="og:image" content="https://files.catbox.moe/qz77hs.m4a">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="POPKID-XTECH PAIR CODE">
-  <meta name="twitter:description" content="Pair-code linker for popkid WhatsApp bot.">
-  <meta name="twitter:image" content="https://files.catbox.moe/y65ffs.jpg">
+  <meta name="twitter:title" content=" PAIR CODE">
+  <meta name="twitter:description" content="Pair-code linker for  WhatsApp bot.">
+  <meta name="twitter:image" content="https://files.catbox.moe/qz77hs.m4a">
   <link rel="shortcut icon" href="" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
-      background: linear-gradient(to bottom, #a8dff0, #001f33);
+      background-image: url("https://i.ibb.co/pBfJZJth/1743837507587.jpg");
       height: 100vh;
       margin: 0;
       display: flex;
@@ -89,7 +89,7 @@
 
     .input-container {
       display: flex;
-      background: #ffffff;
+      background: blue;
       border-radius: 1rem;
       padding: 0.3rem;
       gap: 0.3rem;
@@ -131,7 +131,7 @@
     }
 
     .input-container button:hover {
-      background: #2980b9;
+      background: green;
     }
 
     #loading-spinner {
@@ -159,10 +159,21 @@
       text-align: center;
       font-size: 14px;
     }
+
+    #music-player {
+        position: fixed;
+        bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #music-player audio {
+        width: 80%;
+        max-width: 400px;
+    }
   </style>
 </head>
 <body>
-  <!-- Snowflakes -->
   <div class="snowflake"></div>
   <div class="snowflake"></div>
   <div class="snowflake"></div>
@@ -176,12 +187,12 @@
 
   <div class="container">
       
-    <h3>😇𝐏𝐎𝐏𝐊𝐈𝐃 𝐏𝐀𝐈𝐑😇</h3>
+    <h3>😈 𝑸𝑼𝑬𝑬𝑵 𝑷𝑨𝑰𝑹𝑰𝑵𝑮 😈</h3>
     
     <br>
-    <h3>👻𝐏𝐨𝐩𝐤𝐢𝐝 𝐗𝐭𝐞𝐜𝐡👻</h3>
+    <h3> 🕯️𝐑𝐄𝐆𝐀𝐑𝐃𝐒 𝑫𝑨𝑹𝑲 𝑻𝑬𝑪𝑯🕯️</h3>
     
-    <p>🔢Enter Your WhatsApp Number with Country Code.</p>
+    <p>Enter Your WhatsApp Number with Country Code.</p>
     <br>
     <div class="input-container">
       <input placeholder="254xxxxxx" type="number" id="number" name="">
@@ -195,8 +206,15 @@
   </div>
 
   <footer>
-    POPKID XTECH &copy <span id="currentYear"></span>
+    DARKDEV &copy <span id="currentYear"></span>
   </footer>
+
+  <div id="music-player">
+      <audio controls autoplay loop>
+          <source src="https://files.catbox.moe/qz77hs.m4a" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
   <script>
@@ -254,4 +272,5 @@
     document.getElementById('currentYear').textContent = new Date().getFullYear();
   </script>
 </body>
-</html>
+  </html>
+  
